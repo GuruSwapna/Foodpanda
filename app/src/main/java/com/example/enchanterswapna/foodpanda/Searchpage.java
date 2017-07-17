@@ -107,10 +107,14 @@ public class Searchpage extends AppCompatActivity {
 
         if (Intent.ACTION_SEARCH.equals(intent.getAction())) {
             String query = intent.getStringExtra(SearchManager.QUERY);
-            twsearch.setText(query);
-
+           // twsearch.setText(query);
+            showResults(query);
             //use the query to search
         }
+    }
+    private void showResults(String query) {
+        // Query your data set and show results
+        // ...
     }
     public boolean onOptionsItemSelected(MenuItem item){
 

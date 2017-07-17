@@ -55,6 +55,7 @@ public class HomeScreen extends AppCompatActivity
         setContentView(R.layout.activity_home_screen);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
         textdisplay=(TextView)findViewById(R.id.txtgreen);
         listitems = (ListView) findViewById(R.id.listvw1);
         itag=(ImageView) findViewById(R.id.imgtag);
@@ -271,6 +272,7 @@ public class HomeScreen extends AppCompatActivity
                     (SearchView) menu.findItem(R.id.searchtbtn).getActionView();
             searchView.setSearchableInfo(
                     searchManager.getSearchableInfo(getComponentName()));
+
             return true;
         }
 
@@ -287,6 +289,7 @@ public class HomeScreen extends AppCompatActivity
                 startActivity(int1);
                 return true;
             } else if (id == R.id.searchtbtn) {
+               onSearchRequested();
                 Intent int1 = new Intent(HomeScreen.this, Searchpage.class);
                 startActivity(int1);
                 return true;
@@ -294,6 +297,19 @@ public class HomeScreen extends AppCompatActivity
 
             return super.onOptionsItemSelected(item);
         }
+
+    @Override
+    public boolean onSearchRequested() {
+        Bundle appData = new Bundle();
+        appData.putString("hello", "world");
+        startSearch(null, false, appData, false);
+
+        appData = getIntent().getBundleExtra(SearchManager.APP_DATA);
+        if (appData != null) {
+            String hello = appData.getString("hello");
+        }
+        return true;
+    }
 
         @SuppressWarnings("StatementWithEmptyBody")
         @Override
