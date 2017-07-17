@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_address"
+            android:icon="@drawable/ic_room_white_24dp"
+            android:title="Address"
+            android:tooltipText="#555"
+            />
+        <!--<item-->
+        <!--android:id="@+id/nav_gallery"-->
+        <!--android:icon="@drawable/ic_menu_gallery"-->
+        <!--android:title="Gallery" />-->
+        <!--<item-->
+        <!--android:id="@+id/nav_slideshow"-->
+        <!--android:icon="@drawable/ic_menu_slideshow"-->
+        <!--android:title="Slideshow" />-->
+        <!--<item-->
+        <!--android:id="@+id/nav_manage"-->
+        <!--android:icon="@drawable/ic_menu_manage"-->
+        <!--android:title="Tools" />-->
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_deals"
+            android:icon="@drawable/deal1"
+            android:title="Deals"
+            android:tooltipText="#555"/>
+
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_order"
+            android:icon="@drawable/spn"
+            android:title="Order"
+            android:tooltipText="#555"/>
+
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@drawable/ic_person_outline_black_24dp"
+            android:title="Account"
+            android:tooltipText="#555" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Settings"
+            android:tooltipText="#555"/>
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_livechat"
+            android:icon="@drawable/ic_chat_black_24dp"
+            android:title="Live chat"
+            android:tooltipText="#555"/>
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@drawable/ic_info_outline_black_48dp"
+
+            android:title="Info"
+            android:tooltipText="#555"/>
+    </group>
+
+
+</menu>

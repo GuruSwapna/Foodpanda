@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.enchanterswapna.foodpanda.Checkoutfinal"
+    tools:showIn="@layout/activity_checkoutfinal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total"
+            android:textColor="#ffffff"
+            android:background="@color/colorPrimary"
+            android:textSize="18sp"
+            android:paddingLeft="150sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:text="Rs."
+            android:paddingLeft="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:id="@+id/tcst"
+            android:paddingLeft="0dp"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose Your Address"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:layout_marginTop="80dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:id="@+id/edaddress"
+        >
+    </EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Telephone Number"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:layout_marginTop="150dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ttnmb"
+        android:layout_marginTop="200dp"
+        />
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Select Payment Method    ->"
+        android:textColor="#ffffff"
+        android:id="@+id/tpaid"
+        android:background="@drawable/roundbtn"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="250dp"
+        />
+</RelativeLayout>

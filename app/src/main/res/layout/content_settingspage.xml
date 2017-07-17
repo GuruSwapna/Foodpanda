@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.enchanterswapna.foodpanda.settingspage"
+    tools:showIn="@layout/app_bar_settingspage">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Load images"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:id="@+id/txt1"
+            android:paddingLeft="10dp"
+            android:paddingTop="25dp"
+            />
+        <android.support.v7.widget.SwitchCompat
+            android:layout_marginLeft="200dp"
+            android:id="@+id/switchButton1"
+            android:layout_width="wrap_content"
+            android:layout_centerInParent="true"
+            android:checked="false"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="45dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt2"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:paddingLeft="10dp"
+        android:text="Push notifications"
+        android:layout_marginTop="70dp"
+        />
+    <!--<ToggleButton-->
+        <!--android:id="@+id/setting_tb"-->
+
+        <!--android:layout_width="150dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:checked="true"-->
+        <!--android:gravity="center"-->
+        <!--android:minHeight="0dp"-->
+        <!--android:minWidth="0dp"-->
+        <!--android:textColor="#00ff00"-->
+        <!--android:shadowColor="#ffffff"-->
+        <!--android:textOff=""-->
+        <!--android:textOn=""-->
+        <!--android:textSize="14sp"-->
+        <!--android:layout_below="@+id/textView2"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_marginStart="24dp"-->
+        <!--android:layout_marginTop="45dp" />-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change settings"
+        android:textColor="#32CD32"
+        android:layout_marginTop="95dp"
+        android:paddingLeft="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="copyright © 2017 foodpanda:v.1.0.13"
+        android:layout_marginTop="130dp"
+        android:paddingLeft="10dp"
+        android:id="@+id/textView2" />
+</RelativeLayout>

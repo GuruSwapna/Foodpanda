@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.enchanterswapna.foodpanda.paymentact"
+    tools:showIn="@layout/activity_paymentact">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total"
+            android:textColor="#ffffff"
+            android:background="@color/colorPrimary"
+            android:textSize="18sp"
+            android:paddingLeft="150sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:text="Rs."
+            android:paddingLeft="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:id="@+id/tcst"
+            android:paddingLeft="0dp"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="How would you like to pay?"
+        android:layout_marginTop="50dp"
+        android:textColor="#000"
+        android:paddingLeft="10dp"
+        android:textSize="20sp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:id="@+id/linearLayout2">
+        <RadioGroup
+            android:id="@+id/radiobtns"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/rfpanda"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pay Online"
+
+                android:textSize="17sp"
+                android:checked="true" />
+
+            <RadioButton
+                android:id="@+id/rfpick"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Paytm" />
+
+            <RadioButton
+                android:id="@+id/rfpick1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mobikwik" />
+
+            <RadioButton
+                android:id="@+id/rfpick2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cash Payment" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Go To Order Summary       ->"
+        android:textColor="#ffffff"
+        android:background="@drawable/roundbtn"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp" />
+
+
+</RelativeLayout>

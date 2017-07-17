@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.enchanterswapna.foodpanda">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <application
+        android:name=".AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomeScreen"
+            android:label="@string/title_activity_home_screen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Pageaddress"
+            android:label="@string/title_activity_pageaddress"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".settingspage"
+            android:label="@string/title_activity_settingspage"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Loginreg"
+            android:label="@string/title_activity_loginreg"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Registermn"
+            android:label="@string/title_activity_register"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Loginpage"
+            android:label="@string/title_activity_loginpage"
+            android:parentActivityName=".Loginreg"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.enchanterswapna.foodpanda.Loginreg" />
+        </activity>
+        <activity
+            android:name=".Infonav"
+            android:label="@string/title_activity_infonav"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Dealspage"
+            android:label="@string/title_activity_dealspage"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Searchpage"
+            android:label="@string/title_activity_searchpage"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Idnextact"
+            android:label="@string/title_activity_idnextact"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".userdetails"
+            android:label="@string/title_activity_userdetails"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".pproducts"
+            android:label="@string/title_activity_pproducts"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".finaladding"
+            android:label="@string/title_activity_finaladding"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Cartact"
+            android:label="@string/title_activity_cartact"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Basketact"
+            android:label="@string/title_activity_basketact"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Checkoutact"
+            android:label="@string/title_activity_checkoutact"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Checkoutfinal"
+            android:label="@string/title_activity_checkoutfinal"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".paymentact"
+            android:label="@string/title_activity_paymentact"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Producttypes"
+            android:label="@string/title_activity_producttypes"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+
+    </application>
+
+</manifest>

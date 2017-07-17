@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Foodpanda</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home_screen">Chennai</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_pageaddress">Address</string>
+    <string name="title_activity_settingspage">Settings</string>
+    <string name="title_activity_loginreg">Login or Register</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_loginpage">Login</string>
+    <string name="title_activity_infonav">Help</string>
+    <string-array name="helpoptions">
+        <item>"Partner with us"</item>
+        <item>"Terms and Conditions"</item>
+        <item>"Privacy Policy"</item>
+        <item>"How it works"</item>
+    </string-array>
+    <string name="title_activity_dealspage">Dealspage</string>
+    <string name="title_activity_searchpage">Searchpage</string>
+    <string name="title_activity_idnextact">Idnextact</string>
+    <string name="title_activity_userdetails">Account </string>
+    <string name="title_activity_pproducts">pproducts</string>
+    <string name="title_activity_finaladding">finaladding</string>
+    <string name="title_activity_cartact">Cartact</string>
+    <string name="title_activity_basketact">Basket</string>
+    <string name="title_activity_checkoutact">Checkoutact</string>
+    <string name="title_activity_checkoutfinal">Checkoutfinal</string>
+    <string name="title_activity_paymentact">paymentact</string>
+    <string name="title_activity_producttypes">Producttypes</string>
+
+</resources>

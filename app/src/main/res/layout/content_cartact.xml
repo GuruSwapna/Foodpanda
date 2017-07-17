@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.enchanterswapna.foodpanda.Cartact"
+    tools:showIn="@layout/activity_cartact">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="26dp">
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:textColor="#000"
+            android:paddingTop="10dp"
+            android:id="@+id/tmnvalue"
+            android:layout_above="@+id/fab"
+            android:layout_alignEnd="@+id/fab"
+            android:layout_marginEnd="11dp"
+
+            />
+   <ImageButton
+       android:layout_width="40dp"
+       android:layout_height="40dp"
+       android:id="@+id/fabubtn"
+       android:background="@drawable/circlebutton"
+
+       android:src="@drawable/ic_shopping_basket_black_24dp"
+       android:textColor="#ffffff"
+       />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tmnname"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="65dp"
+    android:layout_below="@+id/tmnname"
+    android:layout_alignStart="@+id/tmnname">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tmnnum"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:layout_below="@+id/tmnname"
+        android:layout_toEndOf="@+id/tmnname" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="x"
+        android:id="@+id/tmnmul"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:layout_marginStart="37dp"
+        android:layout_alignBaseline="@+id/tmnnum"
+        android:layout_alignBottom="@+id/tmnnum"
+        android:layout_toEndOf="@+id/tmnnum" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tmncost"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:layout_marginStart="30dp"
+        android:layout_alignTop="@+id/tmnmul"
+        android:layout_toEndOf="@+id/tmnmul" />
+</LinearLayout>
+
+
+</RelativeLayout>
