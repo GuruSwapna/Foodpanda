@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <item
-        android:id="@+id/action_settings"
-        android:icon="@drawable/informationoutline"
-        android:orderInCategory="202"
-        android:title="cook"
-        app:showAsAction="always"
-        android:iconTint="#ffffff"
-        />
+    <!--<item-->
+        <!--android:id="@+id/action_settings"-->
+        <!--android:icon="@drawable/informationoutline"-->
+        <!--android:orderInCategory="202"-->
+        <!--android:title="cook"-->
+        <!--app:showAsAction="always"-->
+        <!--android:iconTint="#ffffff"-->
+        <!--/>-->
     <item
         android:id="@+id/searchtbtn"
         android:icon="@drawable/magnify"

@@ -25,9 +25,9 @@
     <string name="title_activity_finaladding">finaladding</string>
     <string name="title_activity_cartact">Cartact</string>
     <string name="title_activity_basketact">Basket</string>
-    <string name="title_activity_checkoutact">Checkoutact</string>
-    <string name="title_activity_checkoutfinal">Checkoutfinal</string>
-    <string name="title_activity_paymentact">paymentact</string>
+    <string name="title_activity_checkoutact">Checkout</string>
+    <string name="title_activity_checkoutfinal">Checkout</string>
+    <string name="title_activity_paymentact">payment</string>
     <string name="title_activity_producttypes">Producttypes</string>
 
 </resources>

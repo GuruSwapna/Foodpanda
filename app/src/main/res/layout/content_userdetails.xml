@@ -102,7 +102,8 @@
             android:hint="Mobie"
             android:inputType="number"
             android:maxLength="10"
-            android:layout_marginTop="15dp"
+            android:paddingTop="22dp"
+            android:layout_marginTop="20dp"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
             android:textColor="#000"
@@ -116,7 +117,7 @@
         android:text="Change password"
         android:gravity="center"
         android:textColor="#009977"
-        android:layout_marginTop="310dp"
+        android:layout_marginTop="330dp"
         android:layout_marginLeft="130dp"
         android:id="@+id/txpwd"
         />

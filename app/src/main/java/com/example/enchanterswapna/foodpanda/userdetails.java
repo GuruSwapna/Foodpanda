@@ -40,6 +40,7 @@ public class userdetails extends AppCompatActivity
 
     EditText editbfname,editblname,editbmail,editbmob;
     String strfname,strlname,stremail,strmob;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -169,10 +170,10 @@ public class userdetails extends AppCompatActivity
             super.onPostExecute(movieMode);
             if (movieMode.size() > 0) {
                 MovieAdap adapter = new MovieAdap(getApplicationContext(), R.layout.content_userdetails, movieMode);
-                editbfname.setText((CharSequence) adapter);
-                editblname.setText((CharSequence) adapter);
-                editbmail.setText((CharSequence) adapter);
-                editbmob.setText((CharSequence) adapter);
+                editbfname.setText(adapter.toString());
+                editblname.setText(adapter.toString());
+                editbmail.setText(adapter.toString());
+                editbmob.setText(adapter.toString());
 //                listprod.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 //                    @Override
 //                    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
@@ -218,7 +219,9 @@ public class userdetails extends AppCompatActivity
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+        if (id == R.id.action_settings1) {
+            Intent int1=new Intent(userdetails.this,Loginpage.class);
+            startActivity(int1);
             return true;
         }
 

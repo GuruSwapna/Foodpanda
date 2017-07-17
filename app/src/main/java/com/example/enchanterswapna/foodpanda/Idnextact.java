@@ -232,9 +232,7 @@ public class Idnextact extends AppCompatActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        } else if (id == R.id.searchtbtn) {
+        if (id == R.id.searchtbtn) {
             Intent int1 = new Intent(Idnextact.this, Searchpage.class);
             startActivity(int1);
             return true;

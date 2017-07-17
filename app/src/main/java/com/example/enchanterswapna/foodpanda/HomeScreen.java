@@ -282,9 +282,7 @@ public class HomeScreen extends AppCompatActivity
             int id = item.getItemId();
 
             //noinspection SimplifiableIfStatement
-            if (id == R.id.action_settings) {
-                return true;
-            } else if (id == R.id.action_settings2) {
+           if (id == R.id.action_settings2) {
                 Intent int1 = new Intent(HomeScreen.this, Pageaddress.class);
                 startActivity(int1);
                 return true;
